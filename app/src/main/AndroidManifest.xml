@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amir.planes_reservation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Booking"
+            android:label="@string/title_activity_booking" />
+        <activity
+            android:name=".Special"
+            android:label="@string/title_activity_special" />
+        <activity
+            android:name=".travel"
+            android:label="@string/title_activity_travel" />
+        <activity
+            android:name=".saving"
+            android:label="@string/title_activity_saving" />
+        <activity
+            android:name=".ListOfPlanes"
+            android:label="@string/title_activity_list_of_planes" />
+        <activity
+            android:name=".go"
+            android:label="@string/title_activity_go"></activity>
+        <activity android:name=".Cancel"></activity>
+    </application>
+
+</manifest>
